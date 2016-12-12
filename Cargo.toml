@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "eochat",
+  "tokio-msgpack",
+]

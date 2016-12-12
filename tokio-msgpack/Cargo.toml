@@ -1,0 +1,11 @@
+[package]
+name = "tokio-msgpack"
+version = "0.1.0"
+authors = ["jeremyletang <letang.jeremy@gmail.com>"]
+
+[dependencies]
+rmp = "0.7.5"
+rmp-serde = "0.10.0"
+serde = "0.8.19"
+tokio-core = "0.1.1"
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }

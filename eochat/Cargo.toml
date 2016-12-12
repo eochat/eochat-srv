@@ -1,0 +1,15 @@
+[package]
+name = "eochat"
+version = "0.1.0"
+authors = ["jeremyletang <letang.jeremy@gmail.com>"]
+
+[dependencies]
+env_logger = "0.3.5"
+futures = "0.1.6"
+rmp = "0.7.5"
+rmp-serde = "0.10.0"
+serde = "0.8.19"
+serde_derive = "0.8.19"
+tokio-msgpack = { path = "../tokio-msgpack" }
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
+tokio-service = { git = "https://github.com/tokio-rs/tokio-service" }
